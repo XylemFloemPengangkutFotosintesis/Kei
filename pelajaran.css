@@ -1,0 +1,234 @@
+#navbar {
+    position: fixed; 
+    top: 0;         
+    left: 0;       
+    width: 100%;    
+    background-color: #a06461; 
+    padding: 10px; 
+    text-align: center; 
+    box-shadow: rgba(114, 116, 115, 0.509) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    z-index: 1000;
+ 
+ }
+ 
+ ul {
+     list-style: none;
+     display: flex;
+     justify-content: space-evenly;
+     font-size: larger;
+ }
+ a {
+     text-decoration: none;
+     color: aliceblue;
+ }
+
+ body {
+    background-image: url(https://t3.ftcdn.net/jpg/08/29/77/62/360_F_829776276_YzFkblboNo7lsXV2MWUYJkLLzN62XN3J.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+ }
+
+ #pelajaran-container {
+   flex-direction: column;
+    display: flex;
+    margin-top: 10%;
+    margin-left: 12%;
+    height: 100%; /* Set to full height of the parent (body) */
+    width: 100%; 
+    gap: 13px;
+ }
+
+ .pelajaran1 {
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid #a3adb4; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Space inside the box */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 75%;
+    height: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition:  box-shadow 0.5s, transform 0.4s;
+ }
+
+ .pelajaran1 p {
+    margin-top: 0px; /* Space between image and text */
+    font-size:20px; /* Font size for the text */
+    color: #333; /* Dark gray text color */
+ }
+
+ .pelajaran2 {
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid #a3adb4; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Space inside the box */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 75%;
+    height: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition:  box-shadow 0.5s, transform 0.4s;
+ }
+
+ .pelajaran2 p {
+    margin-top: 0px; /* Space between image and text */
+    font-size:20px; /* Font size for the text */
+    color: #333; /* Dark gray text color */
+ }
+ .pelajaran3 {
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid #a3adb4; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Space inside the box */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 75%;
+    height: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition:  box-shadow 0.5s, transform 0.4s;
+ }
+
+ .pelajaran3 p {
+    margin-top: 0px; /* Space between image and text */
+    font-size:20px; /* Font size for the text */
+    color: #333; /* Dark gray text color */
+ }
+ .pelajaran4 {
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid #a3adb4; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Space inside the box */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 75%;
+    height: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition:  box-shadow 0.5s, transform 0.4s;
+ }
+
+ .pelajaran4 p {
+    margin-top: 0px; /* Space between image and text */
+    font-size:20px; /* Font size for the text */
+    color: #333; /* Dark gray text color */
+ }
+ .pelajaran5 {
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid #a3adb4; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Space inside the box */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 75%;
+    height: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition:  box-shadow 0.5s, transform 0.4s;
+ }
+
+ .pelajaran5 p {
+    margin-top: 0px; /* Space between image and text */
+    font-size:20px; /* Font size for the text */
+    color: #333; /* Dark gray text color */
+ }
+ .pelajaran6 {
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid #a3adb4; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Space inside the box */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 75%;
+    height: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition:  box-shadow 0.5s, transform 0.4s;
+ }
+
+ .pelajaran6 p {
+    margin-top: 0px; /* Space between image and text */
+    font-size:20px; /* Font size for the text */
+    color: #333; /* Dark gray text color */
+ }
+ .pelajaran7 {
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid #a3adb4; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Space inside the box */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 75%;
+    height: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition:  box-shadow 0.5s, transform 0.4s;
+ }
+
+ .pelajaran7 p {
+    margin-top: 0px; /* Space between image and text */
+    font-size:20px; /* Font size for the text */
+    color: #333; /* Dark gray text color */
+ }
+ .pelajaran8 {
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid #a3adb4; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Space inside the box */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 75%;
+    height: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition:  box-shadow 0.5s, transform 0.4s;
+ }
+
+ .pelajaran8 p {
+    margin-top: 0px; /* Space between image and text */
+    font-size:20px; /* Font size for the text */
+    color: #333; /* Dark gray text color */
+ }
+
+ .pelajaran1:hover {
+    transform: scale(1.1);
+}
+.pelajaran2:hover {
+    transform: scale(1.1);
+}
+.pelajaran3:hover {
+    transform: scale(1.1);
+}
+.pelajaran4:hover {
+    transform: scale(1.1);
+}
+.pelajaran5:hover {
+    transform: scale(1.1);
+}
+.pelajaran6:hover {
+    transform: scale(1.1);
+}
+.pelajaran7:hover {
+    transform: scale(1.1);
+}
+.pelajaran8:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 1024px) {
+   #pelajaran-container {
+       margin-left: 5%; /* Adjust margin for medium screens */
+   }
+
+   .pelajaran1, .pelajaran2, .pelajaran3, .pelajaran4, .pelajaran5, .pelajaran6, .pelajaran7, .pelajaran8 {
+       width: 90%; /* Increase width for medium screens */
+       height: auto; /* Allow height to adjust */
+   }
+}
+
+@media (max-width: 768px) {
+   #pelajaran-container {
+       flex-direction: column; /* Stack items vertically */
+       margin-left: 0; /* Remove left margin */
+       height: auto; /* Allow height to adjust */
+   }
+
+   .pelajaran1, .pelajaran2, .pelajaran3, .pelajaran4, .pelajaran5, .pelajaran6, .pelajaran7, .pelajaran8 {
+       width: 95%;
+   }
+}

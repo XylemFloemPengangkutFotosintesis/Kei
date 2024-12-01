@@ -1,0 +1,106 @@
+#navbar {
+    position: fixed; 
+    top: 0;         
+    left: 0;       
+    width: 100%;    
+    background-color: #273985; 
+    padding: 10px; 
+    text-align: center; 
+    box-shadow: rgba(112, 113, 115, 0.509) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    z-index: 1000;
+ 
+ }
+ 
+ ul {
+     list-style: none;
+     display: flex;
+     justify-content: space-evenly;
+     font-size: larger;
+ }
+ a {
+     text-decoration: none;
+     color: aliceblue;
+ }
+
+ body {
+    background-image: url(https://img.freepik.com/premium-photo/blank-blue-cement-wall-texture-background_7190-199.jpg?semt=ais_hybrid);
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+ #kelas-container {
+    margin-top: 5%;
+    display: flex; /* Enable Flexbox */
+    flex-direction: column; /* Arrange items in a column */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    height: 100vh; /* Full height of the viewport */
+    width: 100%; /* Full width of the parent */
+    gap: 15px;
+ }
+
+ .kelas1 {
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid #a3adb4; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Space inside the box */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 75%;
+    height: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition:  box-shadow 0.5s, transform 0.4s;
+ }
+
+ .kelas1 p {
+    margin-top: 5px; /* Space between image and text */
+    font-size:20px; /* Font size for the text */
+    color: #333; /* Dark gray text color */
+}
+.kelas2{
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid #a3adb4; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Space inside the box */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 75%;
+    height: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition:  box-shadow 0.5s, transform 0.4s;
+}
+
+ .kelas2 p {
+    margin-top: 5px; /* Space between image and text */
+    font-size:20px; /* Font size for the text */
+    color: #333; /* Dark gray text color */
+}
+.kelas3 {
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid #a3adb4; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Space inside the box */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 75%;
+    height: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition:  box-shadow 0.5s, transform 0.4s;
+ }
+
+ .kelas3 p {
+    margin-top: 5px; /* Space between image and text */
+    font-size:20px; /* Font size for the text */
+    color: #333; /* Dark gray text color */
+}
+
+.kelas1:hover {
+    transform: scale(1.1);
+}
+.kelas2:hover {
+    transform: scale(1.1);
+}
+.kelas3:hover {
+    transform: scale(1.1);
+}
+

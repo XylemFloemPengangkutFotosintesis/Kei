@@ -1,0 +1,269 @@
+#navbar {
+    position: fixed; 
+    top: 0;         
+    left: 0;       
+    width: 100%;    
+    background-color: #a06461; 
+    padding: 10px; 
+    text-align: center; 
+    box-shadow: rgba(114, 116, 115, 0.509) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    z-index: 1000;
+ 
+ }
+ 
+ ul {
+     list-style: none;
+     display: flex;
+     justify-content: space-evenly;
+     font-size: larger;
+ }
+ a {
+     text-decoration: none;
+     color: aliceblue;
+ }
+
+ body {
+    background-image: url(https://t3.ftcdn.net/jpg/08/29/77/62/360_F_829776276_YzFkblboNo7lsXV2MWUYJkLLzN62XN3J.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+ #bab-container{
+    display: flex; /* Enable flexbox on the body */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Make the body take the full height of the viewport */
+    margin-top: 3%; 
+    gap: 30px;
+ }
+
+ .bab1 {
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid #a3adb4; /* Light gray border */
+    border-radius: 350px; /* Rounded corners */
+    padding: 20px; /* Space inside the box */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 350px;
+    height: 350px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition:  box-shadow 0.5s, transform 0.4s;
+ }
+
+ .bab1 p {
+    margin-top: 70px; /* Space between image and text */
+    font-size:15px; /* Font size for the text */
+    color: #333; /* Dark gray text color */
+ }
+ .bab1 h3 {
+    margin-top: 70px; /* Space between image and text */
+    font-size:30px; /* Font size for the text */
+    color: #333; /* Dark gray text color */
+ }
+
+ .bab2 {
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid #a3adb4; /* Light gray border */
+    border-radius: 350px; /* Rounded corners */
+    padding: 20px; /* Space inside the box */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 350px;
+    height: 350px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition:  box-shadow 0.5s, transform 0.4s;
+ }
+
+ .bab2 p {
+    margin-top: 70px; /* Space between image and text */
+    font-size:15px; /* Font size for the text */
+    color: #333; /* Dark gray text color */
+ }
+ .bab2 h3 {
+    margin-top: 70px; /* Space between image and text */
+    font-size:30px; /* Font size for the text */
+    color: #333; /* Dark gray text color */
+ }
+ .bab3 {
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid #a3adb4; /* Light gray border */
+    border-radius: 350px; /* Rounded corners */
+    padding: 20px; /* Space inside the box */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 350px;
+    height: 350px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition:  box-shadow 0.5s, transform 0.4s;
+ }
+
+ .bab3 p {
+    margin-top: 70px; /* Space between image and text */
+    font-size:15px; /* Font size for the text */
+    color: #333; /* Dark gray text color */
+ }
+ .bab3 h3 {
+    margin-top: 70px; /* Space between image and text */
+    font-size:30px; /* Font size for the text */
+    color: #333; /* Dark gray text color */
+ }
+ .bab4 {
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid #a3adb4; /* Light gray border */
+    border-radius: 350px; /* Rounded corners */
+    padding: 20px; /* Space inside the box */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 350px;
+    height: 350px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition:  box-shadow 0.5s, transform 0.4s;
+ }
+
+ .bab4 p {
+    margin-top: 70px; /* Space between image and text */
+    font-size:15px; /* Font size for the text */
+    color: #333; /* Dark gray text color */
+ }
+ .bab4 h3 {
+    margin-top: 70px; /* Space between image and text */
+    font-size:30px; /* Font size for the text */
+    color: #333; /* Dark gray text color */
+ }
+ .bab5 {
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid #a3adb4; /* Light gray border */
+    border-radius: 350px; /* Rounded corners */
+    padding: 20px; /* Space inside the box */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 350px;
+    height: 350px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition:  box-shadow 0.5s, transform 0.4s;
+ }
+
+ .bab5 p {
+    margin-top: 70px; /* Space between image and text */
+    font-size:15px; /* Font size for the text */
+    color: #333; /* Dark gray text color */
+ }
+ .bab5 h3 {
+    margin-top: 70px; /* Space between image and text */
+    font-size:30px; /* Font size for the text */
+    color: #333; /* Dark gray text color */
+ }
+ .bab6 {
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid #a3adb4; /* Light gray border */
+    border-radius: 350px; /* Rounded corners */
+    padding: 20px; /* Space inside the box */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 350px;
+    height: 350px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition:  box-shadow 0.5s, transform 0.4s;
+ }
+
+ .bab6 p {
+    margin-top: 70px; /* Space between image and text */
+    font-size:15px; /* Font size for the text */
+    color: #333; /* Dark gray text color */
+ }
+ .bab6 h3 {
+    margin-top: 70px; /* Space between image and text */
+    font-size:30px; /* Font size for the text */
+    color: #333; /* Dark gray text color */
+ }
+ .bab7 {
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid #a3adb4; /* Light gray border */
+    border-radius: 350px; /* Rounded corners */
+    padding: 20px; /* Space inside the box */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 350px;
+    height: 350px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition:  box-shadow 0.5s, transform 0.4s;
+ }
+
+ .bab7 p {
+    margin-top: 70px; /* Space between image and text */
+    font-size:15px; /* Font size for the text */
+    color: #333; /* Dark gray text color */
+ }
+ .bab7 h3 {
+    margin-top: 70px; /* Space between image and text */
+    font-size:30px; /* Font size for the text */
+    color: #333; /* Dark gray text color */
+ }
+ .bab8 {
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid #a3adb4; /* Light gray border */
+    border-radius: 350px; /* Rounded corners */
+    padding: 20px; /* Space inside the box */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 350px;
+    height: 350px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition:  box-shadow 0.5s, transform 0.4s;
+ }
+
+ .bab8 p {
+    margin-top: 70px; /* Space between image and text */
+    font-size:15px; /* Font size for the text */
+    color: #333; /* Dark gray text color */
+ }
+ .bab8 h3 {
+    margin-top: 70px; /* Space between image and text */
+    font-size:30px; /* Font size for the text */
+    color: #333; /* Dark gray text color */
+ }
+
+ .bab1:hover {
+    transform: scale(1.1);
+}
+.bab2:hover {
+    transform: scale(1.1);
+}
+.bab3:hover {
+    transform: scale(1.1);
+}
+.bab4:hover {
+    transform: scale(1.1);
+}
+.bab5:hover {
+    transform: scale(1.1);
+}
+.bab6:hover {
+    transform: scale(1.1);
+}
+.bab7:hover {
+    transform: scale(1.1);
+}
+.bab8:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 1024px) {
+   #bab-container {
+       flex-direction: row; /* Change to row for medium screens */
+       justify-content: center; /* Center items */
+       gap: 20px; /* Reduce gap */
+   }
+
+   .bab1, .bab2, .bab3, .bab4, .bab5, .bab6, .bab7, .bab8 {
+       width: 300px; /* Adjust width for medium screens */
+       height: auto; /* Allow height to adjust */
+   }
+}
+
+@media (max-width: 768px) {
+   #bab-container {
+       flex-direction: column; /* Stack items vertically */
+       height: auto; /* Allow height to adjust */
+   }
+}
